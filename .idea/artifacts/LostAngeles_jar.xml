@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LostAngeles:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LostAngeles_jar</output-path>
+    <root id="archive" name="LostAngeles.jar">
+      <element id="module-output" name="LostAngeles" />
+    </root>
+  </artifact>
+</component>
