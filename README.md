@@ -9,11 +9,14 @@ which implementation using an adjacency matrix is O(C^2), C: number of caravans.
 
 Once the shortest paths and their times are calculated, the total waiting time for each group is calculated as follows:
 
-  WTn = WTn-1 + RTn-1 + Tn
+  `WTn = WTn-1 + RTn-1 + Tn`
   
   WTn: waiting time of group n on the queue
+  
   WTn-1: waiting time of the previous group in the queue
+  
   RTn-1: the return time from the caravan to the entrance door of the previous group
+  
   Tn: the shortest time to take group n to its caravan
 
 ## How to run the program
